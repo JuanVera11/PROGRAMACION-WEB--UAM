@@ -1,0 +1,53 @@
+h1{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+/* para acceder aun id debemos anteponer el signo de # */
+#mih1{
+    color: blue;
+}
+
+/* las clases se seleccionan con .  */
+.miclase{
+    color: yellow;
+    font-size: 20px;
+}
+
+/* agrupar varios elementos bajo una misma  clase */
+h4,h3{
+    font-size: 34px;
+    color: brown;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:Verdana;
+  }
+
+  #texto1{
+    color:#ff0000;
+    text-align:left;
+    text-decoration:underline;
+  }
+
+  #texto2{
+    color:#5500dd;
+    text-align:center;
+    text-decoration:underline;
+  }
+
+  #texto3{
+    color:#dd0025;
+    text-align:right;
+    text-decoration:underline;
+  }
+
+  #texto4{
+    letter-spacing:10px;
+    word-spacing:30px;
+    text-transform:capitalize;
+  }

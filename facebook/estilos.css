@@ -1,0 +1,330 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    
+}
+.elementos-medio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E4E6EB;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    transform: translateX(12px); 
+    cursor: pointer;
+}
+
+.elemento {
+    display: flex;
+    align-items: center;
+    margin: 0 17px;
+    white-space: nowrap;
+}
+    
+  #Google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    margin: 0 5px;
+  }
+p{
+    text-align: center;
+}
+.parrafito{
+    text-align: center;
+    margin-top: 15px;  
+  
+}
+
+#publicidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    padding-bottom: 0px;
+    margin-left:12px;
+    margin-top: -80px;
+    position: relative;
+
+}
+
+.verificado{
+    height:17px;
+    width:17px;
+    margin-left: 338px;
+    transform:translateX(2px) translateY(18px);
+    position:relative;
+}
+.ads{
+    height:50px;
+    width:50px;
+    margin-left: 190px;
+    margin-bottom: 35px;
+    position: sticky;
+    cursor: pointer;
+    transform: translateY(-23px); 
+    
+}
+
+.logo-facebook{
+    margin-left:-60px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.search-container {
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+}
+.search-form {
+    width: 17%;
+    margin-right:90px;
+
+}
+
+.abajo-barra{
+    justify-content:flex-start;
+    padding: 5px;
+    margin-left:18px;
+    list-style: none;
+    cursor: pointer;
+}
+.abajo-barra-1{
+    color: #727272;
+    font-size:19px;
+    justify-content:flex-start;
+    padding: 5px;
+    margin-left:18px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.texto-google {
+     font-size:22px;
+     width: 97%;
+     padding:0px;
+     margin: 10px;
+     letter-spacing: 2px;
+    
+}
+.principal {
+    list-style-type: none; 
+    padding-left: 0;
+    padding: 5px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.principal li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icono {
+    height: 26px; 
+    width: 26px;  
+    margin-right: 8px; 
+}
+
+.icono2 {
+    height: 36px; 
+    width: 36px;  
+    margin-right: 8px; 
+}
+
+.icono3{
+    height: 45px; 
+    width: 45px;  
+    margin-right: 8px; 
+}
+
+.Tus-Paginas {
+    padding-top: 25px;
+    color: #727272;
+    cursor: pointer;
+}
+
+.abajo-smartshop {
+    color: #727272;
+    margin-left: 33px;
+    cursor: pointer;
+}
+
+.Contactos {
+    color: #727272;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.SmarthShop {
+    margin-left: 23px;
+    cursor: pointer;
+    
+}
+
+.usd{
+    color: #3498db;
+    letter-spacing:1px;
+}
+
+
+.terminos-condiciones{
+     color:#727272;
+     font-size: 15px;
+     cursor: pointer;
+}
+.google-ads{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    height:420px;
+    width:500px;
+}
+
+.Pasion-blanca {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 490px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.contenedor-interaccion {
+    width: 490px; 
+    margin: 0 auto; 
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box; 
+    padding: 10px;
+   
+}
+
+.reacciones {
+    display: flex;
+    justify-content: space-between;
+    color: #65676B;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+  
+
+.logo-facebook{
+    height:40px;
+    width: 40px;
+}
+
+
+.barra-lateral {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 6px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.elemento-barra-lateral {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .elemento-barra-lateral:hover {
+    background-color: #c0c0c0;
+
+  }
+  
+  .icono-barra-lateral {
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .elemento-barra-lateral h6 {
+    margin: 0;
+  }
+h6{
+    font-weight:normal ;
+}
+
+
+.logo-facebook {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  
+  .imagen-final {
+    height: 45px;
+    margin: 0 5px;
+  }
+  .imagenes-medio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+
+}
+  .parte-media {
+    height: 50px;
+    margin: 0 5px;
+}
+  
+  .imagenes-final {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color: #65676B;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px;
+   
+  }
+ 
+  button:hover {
+    background-color: #F0F2F5;
+  }
+
+ .icono , .elemento{
+
+    color: #65676B;
+ }
+ .icono , .elemento:hover {
+    background-color: #F0F2F5 ;
+  }

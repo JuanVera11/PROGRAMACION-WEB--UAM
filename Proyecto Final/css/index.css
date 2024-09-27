@@ -1,0 +1,638 @@
+/* EL BODY MI CUERPO DE TEXTO, DONDE COLOCO ESTILO PREDETERMINADOS PARA TODA MI PÁGINA*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+     margin: 0;
+     padding: 0;
+ 
+}
+parrafito{
+    color:black;
+    font-size:16px;
+    margin-top: -90px;
+}
+p{
+    color:black;
+    font-size:16px;
+    text-align:start;
+    margin-left:40px;
+    cursor:pointer;
+    margin-bottom: 1px;
+}
+
+/* LOGO DE LA PARTE DE ARRIBA A LA IZQUIERDA DE AIRBNB*/
+.lOGO-AIRBNB{
+    height:120px;
+    width:130px;
+    margin-left: 55px;
+    position: relative;
+    top:-30px;
+}
+
+/* CLASES QUE USO PARA LOS TEXTOS DE LAS 22 IMAGENES, ACA ESTAN DE ALGUNA MANERA CONJUNTAMENTE, ACA LE DOY A LOS TEXTOS IZQUIERDA EL COLOR, PERO DESPUES LOS MANEJO INDIVUALMENTE PARA EL POSICIONAMIENTO*/
+.primer-texto, .texto-izquierda1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+}
+.segundo-texto, .texto-izquierda2 {
+    font-size: 16px;
+    color: #666666;
+    white-space: nowrap;
+
+}
+.tercer-texto, .texto-izquierda3 {
+    font-size: 16px;
+    color: #333333; 
+}
+
+
+h6{
+    color:#222222;
+    cursor:pointer
+}
+h1{
+    margin-left:40px;
+}
+
+/*NAVBAR*/
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-brand img {
+    height: 24px;
+}
+
+.nav-link, .btn {
+    font-size: 14px;
+    padding: 4px 8px;
+}
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: white;
+}
+
+.texto {
+    margin-right: 10px;
+    font-size: 16px;
+    color: black;
+    margin-bottom:25px;
+}
+/* APERTURA DE ICONOS DE DESPUES DE PON TU ESPACIO DE AIRBNB*/
+.icono-globo {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom:25px;
+    margin-right: 10px;
+}
+
+.menu-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    margin-bottom:15px;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.icono-usuario {
+    font-size: 22px;
+    color: black;
+    width:35px;
+    margin-left:15px;
+    margin-bottom: 10px;
+/* FIN DE ICONOS DE NAVBAR*/
+    
+}
+.linea {
+    width: 20px; 
+    height: 3px;
+    background-color: black;
+    margin-bottom: 3px;
+}
+
+
+.texto{
+   white-space:nowrap; 
+}
+
+/* ICONO LUPA DE LA BARRA DE NAVEGACIÓN*/
+.fa-search{
+    color:white;
+    margin-bottom:5px;
+}
+
+.search-bar input {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+  .search-bar {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .search-item {
+    margin-right: 15px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 20px; 
+}
+
+.col-md-3 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+/* CLASE DE 21 IMAGENES*/
+.img-pequeña {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 0 10px; 
+}
+/* CLASE DE LA IMAGEN 6*/
+.img-pequeña2 {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 1500px; 
+}
+
+@media screen and (max-width: 1440px) {
+    .img-pequeña {
+        margin-right: 20px; 
+    }
+.texto-izquierda1 , .texto-izquierda2 , .texto-izquierda3{
+    text-align: left;
+    width:100px;
+    margin-left: 230px;
+    padding-top:3px;
+}
+    .img-pequeña2 {
+        margin-right: 1300px; 
+    }
+}
+/* CLASE DE 21 IMAGENES PARA SU TAMAÑO, COLOR, ALINEACIÓN Y ANCHO*/
+.primer-texto {
+    font-size: 16px;
+    color: #333333;
+    margin-top: 10px;
+    text-align: left; 
+    width: 100%; 
+}
+
+.segundo-texto {
+    font-size: 16px;
+    color: #666;
+    text-align: left; 
+    width: 100%; 
+}
+
+.tercer-texto {
+    font-size: 17px;
+    color: #333333; 
+    text-align: left; 
+    width: 100%;
+}
+
+/* CLASE DE LA 6 IMAGEN*/
+.texto-izquierda1,
+.texto-izquierda2,
+.texto-izquierda3 {
+    text-align: left;
+    margin-right: 1500px;
+    white-space: nowrap;
+    width:100%;
+}
+
+h1{
+    text-align: start;
+}
+/* ACA MANEJO LOS DIFERENTES ELEMENTOS LI ( ELEMENTOS EN LISTA)*/
+li {
+    display: inline-block;
+    margin:5px;
+  }
+h5{
+    font-size:24px;
+}
+/* ID DEL NAVBAR POR DEFECTO DE BOOSTRAP 5.0*/
+#navbarSupportedContent {
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-link {
+    font-weight: normal;
+    font-size: 18px; 
+}
+
+.nav-link.estadias.active {
+    color: black; 
+    font-weight: bold; 
+    cursor:pointer;
+    margin-top:-40px;
+    text-decoration:none;
+}
+
+.nav-link.experiencias {
+    color: grey; 
+    font-weight: normal;
+    cursor:pointer;
+    margin-top:-40px;
+    text-decoration: none;
+}
+
+.nav-link.experiencias:hover {
+    background-color: #e0e0e0; 
+    color: #000; 
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+
+.Airbnb{
+    height:60px;
+    width:70px;
+    margin-left:35px;
+}
+
+.texto-negro {
+    color: black; 
+    text-decoration: none;
+}
+
+.globo {
+    background: none;
+    border: none;
+    color: black;
+}
+.search-bar {
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+    
+}
+/* AYUDA A QUE LA BARRA DE NAVEGACIÓN Y LOS ICONOS ESTEN JUNTOS*/
+.search-item {
+    border-right: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 25px;
+}
+.search-item:last-child {
+    border-right: none;
+}
+.search-item:hover {
+    background-color: #f7f7f7;
+}
+.search-btn {
+    background-color: #ff385c;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    transition: background-color 0.3s ease;
+}
+.search-btn:hover {
+    background-color: #e31c5f;
+}
+/* BARRA DE NAVEGACIÓN DE AIRBNB DONDE INICIALMENTE SIN SCROLL TIENE 4 ELEMENTOS ( 4 TEXTOS)*/
+.barra-navegacion {
+    position: sticky;
+    top: 0; 
+    background-color: white;
+    z-index: 1000;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    transition: all 0.3s ease-in-out;
+}
+/* CLASE DE LOS ICONOS, DONDE POSICIONO EN CONJUNTO CON RESPECTO A LA BARRA PARA QUE AL HACER SCROLL BAJEN EN CONJUNTO ES DECIR, BAJAN LOS DOS AL TIEMPO.*/
+.icon-menu {
+    position: sticky;
+    top: 120px;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    align-items: center;
+    background-color: white;
+    padding: 15px 0;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+/* PARA DESACTIVAR LA VISUALIZACIÓN DEL 4 ELEMENTO, MI CUARTO TEXTO EN LA BARRA (QUIEN ¿ CUANTOS?*/
+.barra-reducida .elemento-cuarto {
+    display: none; 
+}
+/* ME AYUDA A DIVIDIR AL BAJAR EL SCROLL EN 3 LOS ELEMENTOS DE LA BARRA DE NAVEGACIÓN, EN CONJUNTO CON LO QUE TENGO EN MI INDEX.JS*/
+.barra-reducida .search-item {
+    flex-basis: calc(100% / 3);
+}
+
+.icon-item i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.icon-item p {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.icon-item.active i, .icon-item.active p {
+    color: #000;
+    font-weight: bold;
+}
+/* BARRA NEGRA ABAJO DE LA PALABRA POPULAR EN LA SECCIÍN DE INSPIRACIÓN DE ESCAPADAS FUTURAS*/
+.categoria-seleccionada {
+    border-bottom: 2px solid black;
+}
+
+/* CONTENEDOR QUE ABARCA MI FOOTER*/
+.contenedor-footer {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+
+.menu-categorias {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.menu-categorias div {
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* DONDE INICIA LA PRIMERA PARTE DEL FOOTER, ANTES DEL CONTAINER FLUID*/
+.titulo-footer {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.items-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* DONDE APARECE LOS SITIOS DONDE PUEDES ENCONTRAR DIFERENTES ALOJAMIENTOS, APARTAMENTOS, ALQUILERES ETC. ( HACE PARTE DE DONDE  LA SECCIÓN DE MOSTRAR MÁS*/
+.footer-arriba {
+    font-weight: bold;
+    color:#333333;;
+    text-decoration: none;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.items-footer div {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.items-footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.items-footer a:hover {
+    text-decoration: underline;
+}
+
+.items-footer span {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+.footer-secciones {
+    background-color: #f7f7f7;
+    padding: 48px 0;
+}
+
+
+@media (max-width: 768px) {
+    .footer-secciones .row {
+        flex-direction: column;
+    }
+    
+    .footer-secciones .col-md-4 {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-redes {
+        margin-top: 10px;
+    }
+
+}
+/* INICIO SEGUNDA SECCION DEL FOOTER* ( DONDE ESTAN ASISTENCIA, MODO ANFITRIÓN Y AIRBNB)*/
+.inicio-footer {
+    background-color: #f7f7f7;
+    padding: 48px 0;
+    font-size: 14px;
+}
+.inicio-footer h5 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.inicio-footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.inicio-footer ul li {
+    margin-bottom: 12px;
+}
+.inicio-footer ul li a {
+    color: #222;
+    text-decoration: none;
+}
+.inicio-footer ul li a:hover {
+    text-decoration: underline;
+}
+.footer {
+    background-color: #f7f7f7;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+/* TERCERA SECCÍÓN DEL FOOTER LA PARTE DE DERECHOS DE AUTOR DE LA EMPRESA AIRBNB, QUE SE ENCUENTRA EN LA PARTE MAS ABAJO DE LA PÁGINA A LA IZQUIERDA EMPEZANDO, AL LADO DERECHO TERMINANDO ESTAN LAS REDES SOCIALES SI SE LE DA CLICK ABRE EN OTRA PAGINA LA RED SOCIASL ESCOGIDA*/
+.footer-legal {
+    display: flex;
+    align-items: center;
+}
+
+.parte-legal {
+    margin: 0;
+}
+
+.footer-redes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-redes a {
+    color: #222;
+    text-decoration: none;
+}
+
+.footer-redes a:hover {
+    text-decoration: underline;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #222;
+    cursor:pointer;
+}
+
+.icon-text i {
+    margin-right: 8px;
+    font-size: 17px;
+    color: black;
+}
+
+.icon-space {
+    margin-left: 15px;
+}
+/* MANEJO DE RESPONSIVE EN DIFERENTES TAMAÑOS DONDE DEPENDIENDO EL MIN-WIDTH O MAX-WIDTH VARIA EL TAMAÑO DE LA LETRA*/
+/* RESPONSIVE PANTALLAS GRANDES */
+@media (min-width: 1200px) {
+    .primer-texto {
+      font-size: 16px;
+    }
+
+    .footer-legal p {
+      font-size: 16px;
+    }
+  }
+
+  /* RESPONSIVE: PANTALLAS MEDIANAS */
+  @media (max-width: 1199px) and (min-width: 800px) {
+    .primer-texto {
+      font-size: 18px;
+    }
+
+    .footer-legal p {
+      font-size: 14px;
+    }
+  }
+
+  /* RESPONSIVE: PANTALLAS PEQUEÑAS */
+  @media (max-width: 799px) {
+    .primer-texto {
+      font-size: 16px;
+    }
+
+    .footer-legal p {
+      font-size: 12px;
+    }
+
+    /* ALINEA LOS TEXTOS DE MANERA VERTICAL EN PANTALLAS PEQUEÑAS*/
+    .footer-legal,
+    .footer-redes {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+}
+
+.icon-globe {
+    margin-right:5px;
+    margin-bottom: 2px;
+    padding:5px;
+}
+
+.icon-space, .footer-redes a {
+    display: flex;
+    align-items: center;
+}
+
+/* DISPOSITIVOS MEDIANOS ( TABLETS) */
+@media (max-width: 1200px) {
+    .search-bar {
+        max-width: 80%;
+    }
+ }
+
+ /*DISPOSITIVOS PEQUEÑOS ( CELULARES) */
+@media (max-width: 768px) {
+    .search-bar {
+        max-width: 100%;
+    }
+ }
+
+ /* DISPOSITIVOS MUY PEQUEÑOS (PANTALLAS DE MENOS DE 576 PX) */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}

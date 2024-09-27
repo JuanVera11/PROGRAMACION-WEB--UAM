@@ -1,0 +1,287 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.linea {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.linea-izquierda, .linea-derecha {
+    flex-grow: 1;
+    background:#afafaf;
+    height: 1px;
+}
+
+.linea p {
+    margin: 0 10px;
+}
+p footer{
+    text-align: left;
+}
+
+h5{
+    font-size:30px
+}
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-text {
+    color: white;
+}
+.navbar-text ms-3{
+    color: white;
+}
+
+.iconos{
+    font-size: 25px;
+}
+.btn-primary {
+    background-color: #008CCF;
+    border-color: #008CCF;
+}
+.navbar-dark .navbar-text {
+    color: #fff;
+}
+.nav-item{
+    margin-left:50px;
+}
+.nav-item2{
+    margin-left:40px;
+}
+.menu{
+    margin-left:50px;
+}
+
+.naturaleza-1{
+    height:400px;
+    width: 500px;
+    margin: auto;
+    padding: auto;
+    display: block;
+
+}
+
+.naturaleza-2{
+    height:250px;
+    width: 250px;
+    margin: auto;
+    padding: auto;
+    display: block;
+
+}
+
+.naturaleza-3{
+    height:250px;
+    width: 250px;
+    margin: auto;
+    padding: auto;
+    display: block;
+    
+  
+
+}
+
+
+.naturaleza-4{
+    height:250px;
+    width: 250px;
+    margin: auto;
+    padding: auto;
+    display: block;
+}
+
+.naturaleza-5 {
+    height:250px;
+    width: 250px;
+    margin:auto;
+    padding: auto;
+    display: block;
+
+
+}
+.naturaleza-6 {
+    height:250px;
+    width: 250px;
+    margin:auto;
+}
+.naturaleza-7 {
+    height:250px;
+    width: 250px;
+    margin-right:25px;
+   
+   
+
+}
+.naturaleza-8 {
+    height:250px;
+    width: 250px;
+    display:block;
+    margin-right:25px;
+    
+}
+.inteligencia {
+    height:250px;
+    width: 250px;
+    margin-right:25px;
+    
+}
+.imagen-estandar {
+    height: 290px !important;
+    width: 290px !important;
+    display: block;
+    margin: auto;
+}
+
+.parrafito , p{
+    text-align: center;
+}
+
+h6{
+    text-align:center;
+}
+
+.parrafo{
+    text-align:left;
+}
+
+.parra{
+    text-align:left;
+    }
+    .reflexion{
+    text-align:start;
+    }
+footer {
+    height: 750px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto; 
+    padding: 10px;
+}
+
+.footer-background {
+    background-color: #222;
+    color: #fff;
+}
+
+.footer-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+h2{
+    text-align: center;
+}
+
+.footer-background h5 {
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+.footer-background a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-background a:hover {
+    text-decoration: underline;
+}
+
+.iconos a {
+    margin:10px;
+    padding: auto;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #0079a7;
+    border-color: #0079a7;
+}
+
+.form-control {
+    background-color: #333;
+    border-color: #444;
+    color: #fff;
+}
+
+.editorial{
+    font-family: "Libre Bodoni";
+
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-control:focus {
+    background-color: #444;
+    border-color: #555;
+    color: #fff;
+}
+
+.form-check-input:checked {
+    background-color: #0079a7;
+    border-color: #0079a7;
+}
+
+
+.final-footer {
+        margin-top: -30px;
+        text-align: center;
+    }
+
+  .btn btn-primary{
+  margin-left:44px;
+  }
+
+  .mb-3{
+    text-align: center;
+  }
+  form-check-input{
+    text-align: left;
+  }
+  .parte-abajo{
+    margin-top:10px;
+  }
+  
+  .mih1 {
+    color: #0066cc;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.parrafo {
+    margin-bottom: 20px;
+}
+
+.parte-abajo{
+    margin-left:80px;
+}
+.img-pequeña {
+    width: 320px !important;
+    height: 320px !important;
+    object-fit: cover !important;
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.navbar .navbar-text {
+    color: white !important;
+}
